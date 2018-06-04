@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Unbrace's shareable EsLint configuration",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unbrace/eslint-config-unbrace.git"
+  },
   "keywords": [
     "eslint",
     "eslint-config",
