@@ -18,7 +18,7 @@
     ],
     "flowtype/newline-after-flow-annotation": 0,
     "flowtype/no-existential-type": 0,
-    "flowtype/no-flow-fix-me-comments": 1,
+    "flowtype/no-flow-fix-me-comments": 0,
     "flowtype/no-mutable-array": 0,
     "flowtype/no-primitive-constructor-types": 1,
     "flowtype/no-types-missing-file-annotation": 2,
@@ -71,7 +71,7 @@
       "^([A-Z][a-z0-9]+Type)$"
     ],
     "flowtype/type-import-style": [
-      1,
+      0,
       "declaration"
     ],
     "flowtype/union-intersection-spacing": [
