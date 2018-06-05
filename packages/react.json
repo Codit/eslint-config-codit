@@ -43,11 +43,11 @@
       }
     ],
     "react/jsx-indent": [
-      2,
+      0,
       2
     ],
     "react/jsx-indent-props": [
-      2,
+      0,
       2
     ],
     "react/jsx-key": 2,
