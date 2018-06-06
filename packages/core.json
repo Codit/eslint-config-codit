@@ -160,7 +160,7 @@
     "import/max-dependencies": [
       1,
       {
-        "max": 10
+        "max": 15
       }
     ],
     "import/named": 2,
@@ -321,7 +321,7 @@
     "no-extend-native": 0,
     "no-extra-bind": 2,
     "no-extra-boolean-cast": 2,
-    "no-extra-parens": 0,
+    "no-extra-parens": 1,
     "no-extra-semi": 2,
     "no-fallthrough": 2,
     "no-floating-decimal": 2,
@@ -526,7 +526,7 @@
     "promise/no-return-in-finally": 2,
     "promise/no-return-wrap": 2,
     "promise/param-names": 2,
-    "promise/prefer-await-to-callbacks": 1,
+    "promise/prefer-await-to-callbacks": 0,
     "promise/prefer-await-to-then": 0,
     "promise/valid-params": 2,
     "quote-props": [
