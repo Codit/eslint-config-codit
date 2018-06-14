@@ -26,4 +26,4 @@ yarn add eslint-config-unbrace --dev
 
 ## License
 
-MIT
+[MIT](LICENSE)
