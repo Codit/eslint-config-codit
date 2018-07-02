@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es6": false,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "impliedStrict": false
+    }
+  },
+  "rules": {
+    "babel/no-invalid-this": 0,
+    "no-var": 0,
+    "object-shorthand": 0,
+    "prefer-template": 0,
+    "prefer-arrow-callback": 0,
+    "prefer-destructuring": 0,
+    "prefer-rest-params": 0,
+    "strict": [
+      0,
+      "global"
+    ],
+    "vars-on-top": 0
+  }
+}

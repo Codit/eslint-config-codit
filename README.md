@@ -24,6 +24,27 @@ yarn add eslint-config-unbrace --dev
   }
 ```
 
+Or if you want to take more control, you can also extend the packages as follows:
+```
+"eslintConfig": {
+    "extends": [
+      "unbrace/core",
+      "unbrace/flowtype",
+      "unbrace/lodash",
+      "unbrace/react"
+    ]
+  }
+
+// or 
+
+"eslintConfig": {
+    "extends": [
+      "unbrace/core",
+      "unbrace/es5"
+    ]
+  }
+```
+
 ## License
 
 [MIT](LICENSE)

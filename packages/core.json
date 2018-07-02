@@ -104,7 +104,7 @@
     "eqeqeq": 2,
     "filenames/match-exported": 0,
     "filenames/match-regex": [
-      2,
+      0,
       "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*$",
       false
     ],
@@ -206,7 +206,7 @@
         "newlines-between": "never"
       }
     ],
-    "import/prefer-default-export": 1,
+    "import/prefer-default-export": 0,
     "import/unambiguous": 1,
     "indent": [
       0,
