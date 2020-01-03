@@ -1,8 +1,10 @@
 {
   "extends": [
-    "unbrace/packages/core",
-    "unbrace/packages/flowtype",
-    "unbrace/packages/lodash",
-    "unbrace/packages/react"
+    "./packages/core",
+    "./packages/react",
+    "./packages/typescript",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react"
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx", ".d.ts"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+      }
+    },
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"]
+  },
+  "rules": {
+    "brace-style": "off",
+    "@typescript-eslint/brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": 0,
+    "func-call-spacing": "off",
+    "@typescript-eslint/func-call-spacing": [2, "never"],
+    "indent": "off",
+    "@typescript-eslint/indent": [
+      0,
+      0,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-array-constructor": "off",
+    "@typescript-eslint/no-array-constructor": 2,
+    "no-extra-parens": "off",
+    "@typescript-eslint/no-extra-parens": 1,
+    "no-magic-numbers": "off",
+    "@typescript-eslint/no-magic-numbers": [
+      1,
+      {
+        "ignore": [0, 1]
+      }
+    ],
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": 2,
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": 2,
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": 2,
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": 2,
+    "quotes": "off",
+    "@typescript-eslint/quotes": [2, "single"],
+    "semi": "off",
+    "@typescript-eslint/semi": [2, "always"],
+    "import/extensions": [
+      2,
+      "never",
+      {
+        "json": "always"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": true
+      }
+    ],
+    "import/no-namespace": 0,
+    "spaced-comment": ["error", "always", { "markers": ["/"] }]
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ]
+}

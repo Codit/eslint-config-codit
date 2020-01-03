@@ -1,7 +1,5 @@
 {
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
     "react/boolean-prop-naming": 0,
     "react/button-has-type": 0,
@@ -13,10 +11,7 @@
     "react/forbid-elements": 0,
     "react/forbid-foreign-prop-types": 0,
     "react/forbid-prop-types": 0,
-    "react/jsx-boolean-value": [
-      2,
-      "never"
-    ],
+    "react/jsx-boolean-value": [2, "never"],
     "react/jsx-child-element-spacing": 0,
     "react/jsx-closing-bracket-location": 1,
     "react/jsx-curly-brace-presence": 0,
@@ -27,14 +22,12 @@
         "allowMultiline": true
       }
     ],
-    "react/jsx-equals-spacing": [
-      2,
-      "never"
+    "react/jsx-equals-spacing": [2, "never"],
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".jsx", ".tsx"] }
     ],
-    "react/jsx-first-prop-new-line": [
-      2,
-      "multiline-multiprop"
-    ],
+    "react/jsx-first-prop-new-line": [2, "multiline-multiprop"],
     "react/jsx-handler-names": [
       1,
       {
@@ -42,14 +35,8 @@
         "eventHandlerPropPrefix": "on"
       }
     ],
-    "react/jsx-indent": [
-      2,
-      2
-    ],
-    "react/jsx-indent-props": [
-      2,
-      2
-    ],
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [2, 2],
     "react/jsx-key": 2,
     "react/jsx-max-props-per-line": [
       2,
@@ -93,8 +80,8 @@
     "react/no-danger": 1,
     "react/no-danger-with-children": 2,
     "react/no-deprecated": 1,
-    "react/no-did-mount-set-state": 1,
-    "react/no-did-update-set-state": 1,
+    "react/no-did-mount-set-state": 0,
+    "react/no-did-update-set-state": 0,
     "react/no-direct-mutation-state": 2,
     "react/no-find-dom-node": 2,
     "react/no-is-mounted": 2,
