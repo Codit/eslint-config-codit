@@ -6,7 +6,7 @@ The goal of this package is to have a consistent coding style across multiple fi
 
 The package contains our ESLint rules, including ES6, React, TypeScript, FlowType & Lodash.
 
-> Note: We also use [Prettier](https://github.com/prettier/prettier) as a precommit hook, together with their [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) (this package install the config as a dev dependency), so we might not meet your standards on indentation etc. If you do need it, you can always override the configuration with extra rules. See [Configuring ESLint](https://eslint.org/docs/user-guide/configuring) for more information.
+> Note: We also use [Prettier](https://github.com/prettier/prettier) as a precommit hook, together with their [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) (this package will install the config as a dev dependency), so we might not meet your standards on indentation etc. If you do need it, you can always override the configuration with extra rules. See [Configuring ESLint](https://eslint.org/docs/user-guide/configuring) for more information.
 
 ## Usage
 
