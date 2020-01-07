@@ -11,23 +11,28 @@
     "eslint",
     "eslint-config",
     "react",
-    "flowtype",
-    "lodash"
+    "typescript",
+    "javascript",
+    "lodash",
+    "unbrace"
   ],
   "author": "Erwin Govaerts <erwin.govaerts@unbrace.be>",
   "license": "MIT",
-  "dependencies": {
-    "babel-eslint": "^8.1.2",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-filenames": "^1.2.0",
     "eslint-plugin-flowtype": "^2.49.0",
     "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-lodash": "^2.4.2",
-    "eslint-plugin-no-use-extend-native": "^0.3.12",
+    "eslint-plugin-lodash": "^6.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.9.1"
-  },
-  "devDependencies": {
-    "eslint": "^4.0.0"
   }
 }
