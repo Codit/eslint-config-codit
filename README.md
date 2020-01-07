@@ -19,7 +19,7 @@ yarn add eslint-config-unbrace --dev
 Install dependencies. ESLint plugins [must also be installed](https://github.com/eslint/rfcs/pull/5).
 
 ```
-yarn add -D eslint-plugin-babel eslint-plugin-filenames eslint-plugin-import eslint-plugin-promise eslint-plugin-react eslint-config-prettier
+yarn add -D eslint-plugin-babel@^5.3.0 eslint-plugin-filenames@^1.3.2 eslint-plugin-import@^2.19.1 eslint-plugin-promise@^4.2.1 eslint-plugin-react@^7.17.0 eslint-config-prettier@^6.9.0
 ```
 
 ### Configuration
