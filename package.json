@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-unbrace",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unbrace's shareable EsLint configuration",
   "main": "index.js",
   "repository": {
