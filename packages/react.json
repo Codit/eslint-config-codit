@@ -1,5 +1,5 @@
 {
-  "plugins": ["react"],
+  "plugins": ["react", "react-hooks"],
   "rules": {
     "react/boolean-prop-naming": 0,
     "react/button-has-type": 0,
@@ -112,6 +112,13 @@
     "react/sort-comp": 2,
     "react/sort-prop-types": 0,
     "react/style-prop-object": 2,
-    "react/void-dom-elements-no-children": 2
+    "react/void-dom-elements-no-children": 2,
+    "react-hooks/exhaustive-deps": 1,
+    "react-hooks/rules-of-hooks": 2
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

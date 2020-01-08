@@ -2,6 +2,7 @@
   "env": {
     "browser": true,
     "es6": false,
+    "commonjs": true,
     "node": true
   },
   "parserOptions": {
@@ -19,10 +20,7 @@
     "prefer-arrow-callback": 0,
     "prefer-destructuring": 0,
     "prefer-rest-params": 0,
-    "strict": [
-      0,
-      "global"
-    ],
+    "strict": [0, "global"],
     "vars-on-top": 0
   }
 }
