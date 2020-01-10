@@ -13,7 +13,7 @@ The package contains our ESLint rules, including ES6, React, TypeScript, FlowTyp
 ### Installation
 
 ```
-yarn add eslint-config-unbrace --dev
+yarn add eslint-config-unbrace eslint@^6.8.0 --dev
 ```
 
 Install dependencies. ESLint plugins [must also be installed](https://github.com/eslint/rfcs/pull/5).
