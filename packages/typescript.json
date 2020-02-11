@@ -77,7 +77,8 @@
       }
     ],
     "import/no-namespace": 0,
-    "spaced-comment": ["error", "always", { "markers": ["/"] }]
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
+    "@typescript-eslint/no-explicit-any": 2
   },
   "overrides": [
     {
