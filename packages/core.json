@@ -103,12 +103,6 @@
         "json": "always"
       }
     ],
-    "import/first": [
-      2,
-      {
-        "absolute-first": true
-      }
-    ],
     "import/max-dependencies": [
       1,
       {
