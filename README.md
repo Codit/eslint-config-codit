@@ -1,4 +1,4 @@
-# Unbrace ESLint Config
+# Codit ESLint Config
 
 _A fair-minded way to reduce noise in Javascript_
 
@@ -13,7 +13,7 @@ The package contains our ESLint rules, including ES6, React, TypeScript, FlowTyp
 ### Installation
 
 ```
-yarn add eslint-config-unbrace eslint@^6.8.0 --dev
+yarn add @codit/eslint-config eslint@^6.8.0 --dev
 ```
 
 Install dependencies. ESLint plugins [must also be installed](https://github.com/eslint/rfcs/pull/5).
@@ -29,7 +29,7 @@ The following configuration contains a setup for ES6, React, TypeScript & Pretti
 ```
   "eslintConfig": {
     "extends": [
-      "unbrace"
+      "@codit"
     ]
   }
 ```
@@ -39,10 +39,10 @@ Or if you want to take more control or don't use TypeScript, you can also extend
 ```
 "eslintConfig": {
     "extends": [
-      "unbrace/core",
-      "unbrace/flowtype",
-      "unbrace/lodash",
-      "unbrace/react"
+      "@codit/core",
+      "@codit/flowtype",
+      "@codit/lodash",
+      "@codit/react"
     ]
   }
 
@@ -50,11 +50,17 @@ Or if you want to take more control or don't use TypeScript, you can also extend
 
 "eslintConfig": {
     "extends": [
-      "unbrace/core",
-      "unbrace/es5"
+      "@codit/core",
+      "@codit/es5"
     ]
   }
 ```
+
+## Older versions
+
+Documentation for versions 1.x.x can be found in the docs folder:
+
+- [Version 1.x.x](./docs/version-1.x.x.md)
 
 ## License
 
