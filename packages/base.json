@@ -3,8 +3,6 @@
     "./packages/core",
     "./packages/react",
     "./packages/typescript",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier"
   ]
 }

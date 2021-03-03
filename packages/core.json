@@ -5,7 +5,7 @@
     "es6": true,
     "node": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
@@ -16,7 +16,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["babel", "import", "promise", "filenames"],
+  "plugins": ["@babel", "import", "promise", "filenames"],
   "rules": {
     "accessor-pairs": 2,
     "array-bracket-spacing": [2, "never"],
@@ -31,9 +31,9 @@
         "before": true
       }
     ],
-    "babel/new-cap": 1,
-    "babel/no-invalid-this": 2,
-    "babel/object-curly-spacing": [2, "always"],
+    "@babel/new-cap": 1,
+    "@babel/no-invalid-this": 2,
+    "@babel/object-curly-spacing": [2, "always"],
     "block-scoped-var": 2,
     "block-spacing": [2, "always"],
     "brace-style": [
