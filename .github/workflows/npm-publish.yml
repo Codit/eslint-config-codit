@@ -39,7 +39,7 @@ jobs:
         run: |
           npm --no-git-tag-version version ${{env.PACKAGE_VERSION}}
           git add .
-          git commit ${{env.PACKAGE_VERSION}}
+          git commit -m ${{env.PACKAGE_VERSION}}
       - name: Bump version for workflow dispatch
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: npm version ${{env.PACKAGE_VERSION}}
