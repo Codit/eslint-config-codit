@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set version for release trigger
         uses: allenevans/set-env@v2.0.1
@@ -37,6 +39,22 @@ jobs:
 
       - name: Install
         run: npm install
+
+      - name: Setup GIT user
+        run: |
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config user.name "$GITHUB_ACTOR"
+
+      - name: Bump version for release trigger
+        if: ${{ github.event_name == 'release' }}
+        run: |
+          npm --no-git-tag-version version ${{env.PACKAGE_VERSION}}
+          git add .
+          git commit -m ${{env.PACKAGE_VERSION}}
+
+      - name: Bump version for workflow dispatch
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: npm version ${{env.PACKAGE_VERSION}}
 
       - name: Publish
         run: npm publish --access public
