@@ -13,26 +13,20 @@ The package contains our ESLint rules, including ES6, React & TypeScript.
 ### Installation
 
 ```
-yarn add @codit/eslint-config eslint@^7.2.0 --dev
-```
-
-Install peer dependencies.
-
-```
-yarn add --dev @babel/eslint-plugin@^7.13.0 @typescript-eslint/eslint-plugin@^4.15.2 eslint@^7.20.0 eslint-plugin-filenames@^1.3.2 eslint-plugin-import@^2.22.1 eslint-plugin-promise@^4.3.1 eslint-plugin-react@^7.22.0 eslint-plugin-react-hooks@^4.2.0
+yarn add --dev @codit/eslint-config eslint@^7.2.0 @babel/eslint-plugin@^7.13.0 @typescript-eslint/eslint-plugin@^4.15.2 eslint@^7.20.0 eslint-plugin-filenames@^1.3.2 eslint-plugin-import@^2.22.1 eslint-plugin-promise@^4.3.1 eslint-plugin-react@^7.22.0 eslint-plugin-react-hooks@^4.2.0
 ```
 
 ### Configuration
 
 The following configuration contains a setup for ES6, React, TypeScript & Prettier, add it to your `.eslintrc` file
 
-```
+```javascript
 "extends": ["@codit"]
 ```
 
 Or if you want to take more control or don't use TypeScript, you can also extend the packages as follows (make sure to also install the correct dependencies):
 
-```
+```javascript
 
 "extends": [
   "@codit/eslint-config/core",

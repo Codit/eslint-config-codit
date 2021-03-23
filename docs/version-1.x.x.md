@@ -21,7 +21,7 @@ yarn add -D eslint-plugin-babel@^5.3.0 eslint-plugin-filenames@^1.3.2 eslint-plu
 
 The following configuration contains a setup for ES6, React, TypeScript & Prettier
 
-```
+```javascript
   "eslintConfig": {
     "extends": [
       "unbrace"
@@ -31,7 +31,7 @@ The following configuration contains a setup for ES6, React, TypeScript & Pretti
 
 Or if you want to take more control or don't use TypeScript, you can also extend the packages as follows (make sure to also install the correct dependencies, FlowType & Lodash f.e. are not listed in the step above):
 
-```
+```javascript
 "eslintConfig": {
     "extends": [
       "unbrace/core",
