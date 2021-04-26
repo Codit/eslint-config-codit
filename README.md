@@ -13,7 +13,7 @@ The package contains our ESLint rules, including ES6, React & TypeScript.
 ### Installation
 
 ```
-yarn add --dev @codit/eslint-config eslint@^7.2.0 @babel/eslint-plugin@^7.13.0 @typescript-eslint/eslint-plugin@^4.15.2 eslint@^7.20.0 eslint-plugin-filenames@^1.3.2 eslint-plugin-import@^2.22.1 eslint-plugin-promise@^4.3.1 eslint-plugin-react@^7.22.0 eslint-plugin-react-hooks@^4.2.0
+yarn add --dev @codit/eslint-config eslint@^7.2.0 @babel/eslint-plugin@^7.13.0 @typescript-eslint/eslint-plugin@^4.15.2 eslint@^7.20.0 eslint-plugin-filenames@^1.3.2 eslint-plugin-import@^2.22.1 eslint-plugin-promise@^4.3.1 eslint-plugin-react@^7.22.0 eslint-plugin-react-hooks@^4.2.0 eslint-plugin-jsx-a11y@^6.4.1
 ```
 
 ### Configuration
