@@ -1,1 +1,1 @@
-module.exports = require("./packages/typescript.json");
+module.exports = require('./packages/jsx-a11y.json');
