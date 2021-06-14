@@ -1,6 +1,6 @@
 {
   "name": "@codit/eslint-config",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Codit's shareable EsLint configuration",
   "main": "index.js",
   "repository": {
