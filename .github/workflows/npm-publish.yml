@@ -1,8 +1,6 @@
 name: NPM publish
 
 on:
-  release:
-    types: [created]
   workflow_dispatch:
     inputs:
       version:
@@ -18,12 +16,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set version for release trigger
-        uses: allenevans/set-env@v2.0.1
-        if: ${{ github.event_name == 'release' }}
-        with:
-          PACKAGE_VERSION: ${{github.event.release.tag_name}}
 
       - name: Set version for workflow dispatch
         uses: allenevans/set-env@v2.0.1
@@ -44,13 +36,6 @@ jobs:
         run: |
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git config user.name "$GITHUB_ACTOR"
-
-      - name: Bump version for release trigger
-        if: ${{ github.event_name == 'release' }}
-        run: |
-          npm --no-git-tag-version version ${{env.PACKAGE_VERSION}} --allow-same-version
-          git add .
-          git commit -m ${{env.PACKAGE_VERSION}}
 
       - name: Bump version for workflow dispatch
         if: ${{ github.event_name == 'workflow_dispatch' }}
