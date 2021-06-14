@@ -2,6 +2,7 @@
   "extends": [
     "./packages/core",
     "./packages/react",
+    "./packages/jsx-a11y",
     "./packages/typescript",
     "prettier"
   ]
