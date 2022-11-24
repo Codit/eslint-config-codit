@@ -11,6 +11,11 @@
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]
+      },
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project":"./tsconfig.json"
+
       }
     },
     "import/extensions": [".js", ".jsx", ".ts", ".tsx"]
