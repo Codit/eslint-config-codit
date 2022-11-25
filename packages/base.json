@@ -4,6 +4,7 @@
     "./packages/react",
     "./packages/jsx-a11y",
     "./packages/typescript",
+    "./packages/next",
     "prettier"
   ]
 }
